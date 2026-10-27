@@ -1,0 +1,57 @@
+a:visited {
+  color: green;
+  font-size: 70px;
+}
+a:hover {
+  color: burlywood;
+}
+a:active {
+  color: red;
+}
+.graph p:first-child {
+  color: yellowgreen;
+}
+.graph p:last-child {
+  color: blueviolet;
+}
+input[type="text"] {
+  color: orange;
+}
+input[type="email"]:focus {
+  background-color: blueviolet;
+}
+.parent {
+  display: flex;
+}
+.box {
+  background:orchid;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+.box:nth-child(2n + 1) {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  background: blue;
+}
+q:lang(star) {
+  quotes: "*" "*";
+}
+.task h1:nth-of-type(2) {
+  color: yellowgreen;
+}
+.task h1:nth-of-type(3) {
+  color: red;
+}
+p::first-letter {
+  color: red;
+  font-size: 60px;
+}
+p::selection {
+  color: white;
+  background: black;
+}
+ul li::marker {
+  color: tomato;
+}
